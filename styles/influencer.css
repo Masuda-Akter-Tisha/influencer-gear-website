@@ -144,6 +144,9 @@ body{
         font-weight:bold;
         color: #5E6366;
     }
+    .star i{
+        color:#FB8200;
+    }
     .box{
         padding:15px;
         border:none;
@@ -204,6 +207,26 @@ body{
     }
     .join-btn i{
         margin-left:5px;
+    }
+    /* footer section */
+    .footer{
+        background-color: #0A0826;
+        text-align: center;
+        padding:50px 0px;
+    }
+    .footer-title{
+        font-size: 24px;
+        font-weight:bold;
+        color: #FFFFFF;
+    }
+    .footer-subtitle,.footer-sub-2{
+        font-size:14px;
+        font-weight: bold;
+        color: #D9DBE1;
+    }
+    .footer i{
+        color:#FFFFFF;
+        margin-right:5px;
     }
 @media screen and (max-width:576px) {
     .navbar{
