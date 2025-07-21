@@ -78,6 +78,19 @@ body{
     background-repeat: no-repeat;
     background-size:contain;
 }
+/* main section */
+/* company logo */
+.companies-logo{
+        border-top:1px solid rgba(192, 204, 218, 0.2);
+        border-bottom:1px solid rgba(192, 204, 218, 0.2);
+        width:77%;
+        margin:0px auto;
+        display:flex;
+        justify-content: space-evenly;
+        gap:50px;
+        padding:35px 0px;
+        margin-bottom:100px;
+    }
 @media screen and (max-width:576px) {
     .navbar{
         flex-direction: column;
@@ -102,6 +115,12 @@ body{
     }
     .banner-description{
         font-size: 20px;
+    }
+    .companies-logo{
+       gap:20px;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
     }
 }
 
